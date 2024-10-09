@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Javascript</title>
+</head>
+<body>
+
+    <h3>Menghitung Luas Segitiga</h3>
+    
+    <script>
+
+        var alas = 8;
+        var tinggi = 5;
+        var luas = 0.5*(alas*tinggi);
+        
+        document.write("Nilai Alas : " + alas +"<br>");
+        document.write("Nilai Tinggi : " + tinggi +"<br>");
+        document.write("Maka Luas Segitiga adalah " + luas +"cm");
+        
+    </script>
+    
+</body>
+</html>
